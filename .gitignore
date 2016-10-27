@@ -4,3 +4,11 @@
 /dist/
 /.idea/
 *.log
+
+/app/**/*.js
+/app/**/*.js.map
+/app/**/*.d.ts
+
+ng2-breadcrumb.js
+ng2-breadcrumb.js.map
+ng2-breadcrumb.d.ts
