@@ -1,5 +1,6 @@
 import { NgModule }      from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 import { BreadcrumbComponent } from './components/breadcrumb';
 import { BreadcrumbService } from './components/breadcrumbService';
@@ -9,7 +10,8 @@ export * from './components/breadcrumbService'
 
 @NgModule({
     imports: [
-        CommonModule
+        CommonModule,
+        RouterModule
     ],
     declarations: [
         BreadcrumbComponent
